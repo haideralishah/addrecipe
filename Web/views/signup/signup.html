@@ -1,0 +1,20 @@
+
+<form class="centerAlignment">
+
+    <md-input-container class="md-block" flex-gt-sm>
+    <label>Ingredient Name</label>
+    <input ng-model="recipe.ingredient">
+    </md-input-container>
+
+    <md-input-container class="md-block" flex-gt-sm>
+        <label>Ingredient Quantity</label>
+        <input ng-model="recipe.qty">
+    </md-input-container>
+
+ 
+
+    <md-button class="md-raised md-primary" ng-click="moreIngreients()" ui-sref="signup">More ingredients</md-button><br><br>
+    <md-button class="md-raised md-primary" ng-click="addCategory()">Enter Category</md-button>
+
+
+</form>

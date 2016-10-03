@@ -1,0 +1,38 @@
+<form class="centerAlignment">
+
+
+
+    <md-input-container class="md-block" flex-gt-sm>
+        <label>Dish Serve</label>
+        <input ng-model="recipe.serve">
+    </md-input-container>
+   
+
+
+    <md-input-container class="md-block" flex-gt-sm>
+        <label>Dish Time</label>
+        <input ng-model="recipe.dishTime">
+    </md-input-container>
+
+     <md-input-container class="md-block" flex-gt-sm>
+        <label>Recipe</label>
+        <input ng-model="recipe.recipeMethod">
+    </md-input-container>
+
+    <md-input-container class="md-block" flex-gt-sm>
+        <label>Dish Image</label>
+        <input ng-model="recipe.dishImg">
+    </md-input-container>
+
+    <md-input-container class="md-block" flex-gt-sm>
+        <label>Dish Image Type</label>
+        <input ng-model="recipe.dishImgType">
+    </md-input-container>
+
+
+
+    <md-button class="md-raised md-primary" ng-click="addRecipe()" ui-sref="creatProduct">Add Recipe</md-button>
+
+
+
+</form>

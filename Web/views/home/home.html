@@ -1,0 +1,22 @@
+<div ng-repeat="rec in recipes">
+    {
+    <h1>dish: '{{rec.dish}}',</h1>
+    <h2>category: {{rec.category}},</h2>
+    <h2>ingrd: {{rec.ingrd}},</h2>
+    <h2>ingrnQty: {{rec.ingrnQty}},</h2>
+    <p>Recipe: '{{rec.recipe}}',</p>
+    <h2>dishImg: './img/{{rec.dishImg}}.{{rec.dishImgType}}',</h2>
+    <h2>dishTime: '{{rec.dishTime}}',</h2>
+    <h2>servings: '{{rec.serve}}',</h2>
+    <h2>matchingIngrd: '{{rec.matchingIngrd}}',</h2>
+    <h2>nutrition:{
+     kcal: {{rec.nutrition[0].kcal}},
+     fat: {{rec.nutrition[0].fat}},
+     saturates: {{rec.nutrition[0].saturates}},
+   carbs: {{rec.nutrition[0].carbs}},
+    sugars: {{rec.nutrition[0].sugars}},
+     fibre: {{rec.nutrition[0].fibre}},
+     protein: {{rec.nutrition[0].protein}},
+     salt: {{rec.nutrition[0].salt}},</h2>
+    } },
+</div>
