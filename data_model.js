@@ -2,9 +2,7 @@
 var mongoose = require("mongoose");
 
 // var connection = mongoose.connect("mongodb://localhost/salesManApplication");
-var connection = mongoose.connect("mongodb://haider:Haider@14081947@ds047166.mlab.com:47166/recipedatabase");
-
-
+var connection = mongoose.connect("mongodb://haider:123@ds047166.mlab.com:47166/recipedatabase");
 
 
 var nutritionSchema = new mongoose.Schema({
